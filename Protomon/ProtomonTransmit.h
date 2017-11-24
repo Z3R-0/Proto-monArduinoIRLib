@@ -14,7 +14,8 @@
 	public:
 		int transmit();
 		void setFreq(uint8_t freq);
-		void setBits(uint8_t data[12]);
+		void cypherBits(char downID[4]);
+		uint8_t getFreq();
 	private:
 		char data[12];
 		uint8_t freq;

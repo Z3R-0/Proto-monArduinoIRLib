@@ -1,3 +1,4 @@
+#include "ProtomonReceive.h"
 #include "Protomon.h"
 int main(){
 	DDRB |= (1<<DDB5);

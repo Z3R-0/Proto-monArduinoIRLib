@@ -20,6 +20,6 @@ void ProtomonTransmit::setFreq(uint8_t freq){
 	this->freq = freq;
 }
 
-void ProtomonTransmit::setData(char data[12]){
-	this->data = data;
+void ProtomonTransmit::cypherBits(char downID[4]){
+	
 }
