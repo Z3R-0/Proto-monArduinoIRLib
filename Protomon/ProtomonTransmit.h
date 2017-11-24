@@ -9,13 +9,12 @@
 	#include "WProgram.h"
 #endif
 	
-	class Protomon: public Protomon
+	class ProtomonTransmit: public ProtomonTransmit
 	{
 	public:
 		int transmit();
 		void setFreq(uint8_t freq);
 		void setBits(uint8_t data[12]);
-		void receive();
 	private:
 		char data[12];
 		uint8_t freq;
