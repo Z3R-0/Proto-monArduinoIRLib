@@ -3,13 +3,12 @@
 // 
 
 #include "ProtomonTransmit.h"
+extern "C" {
+	#include <string.h>
+};
 
 ProtomonTransmit::ProtomonTransmit(uint8_t freq){
 	this->freq = freq;
-}
-
-ProtomonTransmit::ProtomonTransmit(){
-	
 }
 
 int ProtomonTransmit::transmit(){
@@ -21,5 +20,7 @@ void ProtomonTransmit::setFreq(uint8_t freq){
 }
 
 void ProtomonTransmit::cypherBits(char downID[4]){
-	
+	strcpy(data, "1");
+	strcat(data, downID);
+	//invert the downmon ID
 }

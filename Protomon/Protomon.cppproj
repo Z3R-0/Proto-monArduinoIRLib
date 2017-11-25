@@ -211,6 +211,18 @@
     <Folder Include="__vm\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProtomonReceive.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ProtomonReceive.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ProtomonTransmit.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ProtomonTransmit.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="__vm\.Protomon.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
