@@ -1,4 +1,9 @@
 // Protomon.h
+/*
+	Naam: Tim Meermans
+	Date: 23-November-2017
+	Description: header file for the Transmit functions of the Protomon protocol
+*/
 
 #ifndef _PROTOMON_h
 #define _PROTOMON_h

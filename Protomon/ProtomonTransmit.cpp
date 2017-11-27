@@ -13,7 +13,7 @@ ProtomonTransmit::ProtomonTransmit(uint8_t freq){
 }
 
 int ProtomonTransmit::transmit(){
-	//Do things here with PWM pin
+	
 }
 
 void ProtomonTransmit::setFreq(uint8_t freq){
