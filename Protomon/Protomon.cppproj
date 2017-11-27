@@ -65,16 +65,16 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -99,16 +99,16 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -119,7 +119,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/brian/OneDrive/Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;</VMSETTING_IncludePaths>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
@@ -146,16 +146,16 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -180,16 +180,16 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -200,7 +200,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/brian/OneDrive/Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;</VMSETTING_IncludePaths>
   </PropertyGroup>
   <ItemGroup>
     <None Include="Protomon.ino">
@@ -211,6 +211,18 @@
     <Folder Include="__vm\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProtomonReceive.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ProtomonReceive.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ProtomonTransmit.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ProtomonTransmit.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="__vm\.Protomon.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
