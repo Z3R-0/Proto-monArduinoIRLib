@@ -23,22 +23,28 @@ void ProtomonTransmit::setFreq(uint8_t freq){
 void ProtomonTransmit::cypherBits(char downID[4]){
 	//Extern C code for string functions and looping
 	extern "C" {
+		char notDownID[10]
 		int i = 0;
 		//Add start bit
 		strcpy(data, "1");
-		//Add downmon ID
+		//Add downmon IDs
 		strcat(data, downID);
 		//Add inverse of downmon ID:
-	
-	
-		//While loop: Check if char on position i is 1 or 0 and invert  
-		while(downID[i] != '\0'){
-			if(downID[i] = '1'){
-				i = 0;
+		if(downID[i] == '1'){
+			strcpy(notDownID, "0");
 			} else {
-				i = 1;
-			}
+			strcpy(notDownID, "1");
 		}
+		//While loop: Check if char on position i is 1 or 0 and invert  
+		while(i < strlen(downID)){
+			if(downID[i] == '1' && i != 0){
+				strcat(notDownID, "0");
+				} else if(downID[i] == '0' && i != 0) {
+				strcat(notDownID, "1");
+			}
+			i++;
+		}
+		strcat(data, notDownID);
 	
 		//Add parity bit
 		strcat(data,"1");
