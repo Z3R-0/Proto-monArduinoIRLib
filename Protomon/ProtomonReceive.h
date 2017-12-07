@@ -1,5 +1,9 @@
 // Protomon.h
-
+/*
+	Name: Brian Kamperveen
+	Date: 24 november 2017
+	Description: header file for receive function of Protomon-protocol
+*/
 #ifndef _PROTOMON_h
 #define _PROTOMON_h
 
@@ -12,11 +16,13 @@
 class ProtomonReceive: public ProtomonReceive {
 	public:
 	int receive();
-	void decypher();
+	void decypher(char bits[10]);
+	void read(char bits[5]);
 
 	private:
-	char data[12];
-	
+	char dataFirst[13];
+	char bits[10];
+	char data[5];	
 };
 
 #endif
