@@ -30,6 +30,7 @@ int ProtomonTransmit::transmit(){
 }
 
 void ProtomonTransmit::ISR(TIMER1_COMPA_vect){
+	DDRB |= (1 << DDB5);
 	uint8_t oneOrZero, repeat, x;
 	//Set oneOrZero to initial value
 	oneOrZero = 0;
@@ -42,20 +43,25 @@ void ProtomonTransmit::ISR(TIMER1_COMPA_vect){
 		return;
 	} if(repeat){
 		if(oneOrZero){
-			//send second one pulse
+			//Second 1 pulse
+			PORTB5 |= (1 << PORTB5);
 		} else if(!oneOrZero){
-			//Send second zero pulse (which is an empty one)
+			//Second 0 pulse
+			PORTB5 &= ~(1 << PORTB5);
 		}
 		repeat = 0;
 		x++;
 	} else if(oneOrZero){
 		//First 1 pulse
+		PORTB5 |= (1 << PORTB5);
 		repeat = 1;
 	} else if(!oneOrZero) {
 		//First 0 pulse
+		PORTB5 |= (1 << PORTB5);
 		repeat = 1;
 		x++;
 	}
+	PORTB &= ~(1 << PORTB5);
 }
 
 void ProtomonTransmit::setFreq(uint8_t freq){
@@ -69,7 +75,7 @@ uint16_t ProtomonTransmit::getFreq(){
 void ProtomonTransmit::cypherBits(char downID[4]){
 	//Extern C code for string functions and looping
 	extern "C" {
-		char notDownID[10]
+		char notDownID[10];
 		int i = 0;
 		//Add start bit
 		strcpy(data, "1");
