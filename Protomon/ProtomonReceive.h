@@ -17,12 +17,14 @@ class ProtomonReceive: public ProtomonReceive {
 	public:
 	int receive();
 	void decypher(char bits[10]);
-	void read(char bits[5]);
+	void readPreShow(char bits[5]);
+	void readPokeShow(char bits[4]);
 
 	private:
 	char dataFirst[13];
 	char bits[10];
 	char data[5];	
+	void ISR();
 };
 
 #endif
