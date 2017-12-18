@@ -7,7 +7,7 @@
 extern "C" {
 	#include <string.h>
 };
-review,definitionofdone
+
 void introutine() {
 	if(two interrupts in two ticks) {
 		add 1 to data;
@@ -16,16 +16,8 @@ void introutine() {
 	}
 }
 
-//Read and process PreShow data
-int ProtomonReceive::readPreShow(char data[5]) {
-	char downID[3], moves[2], pokes[2];
-	sscanf(data,"%3c%2c", downID, moves);
-	strncpy(pokes, moves, 2);
-	pokes[2] = '\0';
-}
-
 //Read and process PokeShow data
-int ProtomonReceive::readPokeShow(char data[5]) {
+int ProtomonReceive::read(char data[5]) {
 	char action[3];
 	strncpy(action, data, 3);
 	action[3] = '\0';
@@ -33,17 +25,16 @@ int ProtomonReceive::readPokeShow(char data[5]) {
 
 void ProtomonReceive::ISR(PCINT0_vect) {
 	//Initiate local variables
-	char start, parity, stop;
+	char start, stop;
 
-	//Make variables for start-, stop- and parity bit
+	//Make variables for start- and stop bit
 	start = dataFirst[0];
-	parity = dataFirst[12];
-	stop = dataFirst[13];
+	stop = dataFirst[12];
 
-	//Check if start-, stop- and parity bit have correct values if yes remove them and decypher the data
-	if(start!=1 && parity!=1 && stop!=1) {
+	//Check if start-, stop bit have correct values if yes remove them and decypher the data
+	if(start!=1 && stop!=1) {
 		/*incorrect data received;*/
-		} else if(start==1 && parity==1 && stop==1) {
+		} else if(start==1 && stop==1) {
 		memmove(data, bits+1, strlen(data+1) + 1);
 		data[10] = '\0';
 		decypher(data);
@@ -53,13 +44,24 @@ void ProtomonReceive::ISR(PCINT0_vect) {
 };
 
 int ProtomonReceive::receive() {
-	//Enable pin change interrupt(PCINT)
-	PCMSK0 |= (1<<PCINT2);
-	PCICR |= (1<<PCIE2);
+	//Set digital pin 2 to input
+	DDRD &= ~(1<<DDB2);
 
-	//Enable global interrupts
+	//Set up timer and interrupts on 15.92 MHz (in which one 38 kHz tick is 42 15.92MHz ticks)
+	TCCR1B |= (1 << CS10);    //Set clock without pre-scaling (16 MHz)
+	TCCR1A |= (1 << COM1A1);  //Set timer clear on compare match
+
+	//Initialize counter
+	TCNT1 = 0;
+
+	//Compare value and initialization of interrupt
+	OCR1A = 40;
+	TIMSK1 |= (1 << OCIE1A);
+
+	//enable global interrupts
 	sei();
 
+	//Loop forever to receive data
 	while(1) {
 	}
 }
