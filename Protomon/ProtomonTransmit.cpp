@@ -8,11 +8,11 @@ extern "C" {
 	#include <string.h>
 };
 
-ProtomonTransmit::ProtomonTransmit(uint16_t freq) {
+ProtomonTransmit::ProtomonTransmit(uint16_t freq){
 	this->freq = freq;
 }
 
-int ProtomonTransmit::transmit() {
+int ProtomonTransmit::transmit(){
 	//Set up timer and interrupts on 15.92 MHz (in which one 38 kHz tick is 42 15.92MHz ticks)
 	TCCR1B |= (1 << CS10);    //Set clock without pre-scaling (16 MHz)
 	TCCR1A |= (1 << COM1A1);  //Set timer clear on compare match
@@ -29,17 +29,17 @@ int ProtomonTransmit::transmit() {
 	sei();
 }
 
-void ProtomonTransmit::ISR(TIMER1_COMPA_vect) {
+void ProtomonTransmit::ISR(TIMER1_COMPA_vect){
 	DDRB |= (1 << DDB5);
-	uint8_t oneOrZero, repeat, x, i;
+	uint8_t oneOrZero, x, i;
 	//Set oneOrZero to initial value
 	oneOrZero = 0;
 
 	//Check if next bit is a 1 or not. If it is set oneOrZero to 1
-	if(data[x] == '1') {
+	if(data[x] == '1'){
 		oneOrZero = 1;
 	}
-	else if(data[x] == '\0') {
+	else if(data[x] == '\0'){
 		TIMSK1 &= ~(1 << OCIE1A);	//If data char array has ended, turn off interrupt
 		PORTB &= ~(1 << PORTB5);	//Turn off led
 		x = 0;						//Reset counter
@@ -47,7 +47,7 @@ void ProtomonTransmit::ISR(TIMER1_COMPA_vect) {
 	}
 	
 	if(i >= 50){
-		if(oneOrZero) {
+		if(oneOrZero){
 			//Second 1 pulse
 			PORTB |= (1 << PORTB5);
 			i++;
@@ -68,15 +68,15 @@ void ProtomonTransmit::ISR(TIMER1_COMPA_vect) {
 	
 }
 
-void ProtomonTransmit::setFreq(uint8_t freq) {
+void ProtomonTransmit::setFreq(uint8_t freq){
 	this->freq = freq;
 }
 
-uint16_t ProtomonTransmit::getFreq() {
+uint16_t ProtomonTransmit::getFreq(){
 	return freq;
 }
 
-void ProtomonTransmit::cypherBits(char downID[4]) {
+void ProtomonTransmit::cypherBits(char downID[4]){
 	//Extern C code for string functions and looping
 	extern "C" {
 		char notDownID[10];
@@ -87,17 +87,17 @@ void ProtomonTransmit::cypherBits(char downID[4]) {
 		strcat(data, downID);
 		//Add inverse of downmon ID:
 		//If loop so first character of inverse downID is copied to string not concatenated (random memory issues)
-		if(downID[i] == '1') {
+		if(downID[i] == '1'){
 			strcpy(notDownID, "0");
 			} else {
 			strcpy(notDownID, "1");
 		}
 		//While loop: Check if char on position i is 1 or 0 and invert
-		while(i < strlen(downID)) {
+		while(i < strlen(downID)){
 			//Second till last characters are all concatenated into data
-			if(downID[i] == '1' && i != 0) {
+			if(downID[i] == '1' && i != 0){
 				strcat(notDownID, "0");
-				} else if(downID[i] == '0' && i != 0) {
+				} else if(downID[i] == '0' && i != 0){
 				strcat(notDownID, "1");
 			}
 			i++;
