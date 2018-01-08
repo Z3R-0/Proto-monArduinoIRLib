@@ -13,7 +13,7 @@
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <AssemblyName>Protomon</AssemblyName>
-    <Name>Protomon</Name>
+    <Name>IRProtocol</Name>
     <RootNamespace>Protomon</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
@@ -64,17 +64,17 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>../../../IRProtocol</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -98,17 +98,17 @@
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>../../../IRProtocol</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -119,7 +119,12 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/brian/OneDrive/Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/brian/OneDrive/Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;../../../IRProtocol;</VMSETTING_IncludePaths>
+    <VisualMicroSettings>
+      <VisualMicroSettings xmlns="">
+        <arduino.upload.port>COM3</arduino.upload.port>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
@@ -145,17 +150,17 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>../../../IRProtocol</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -179,17 +184,17 @@
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>../../../Protomon</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries</Value>
-      <Value>C:/Users/timme/OneDrive/Documenten/Arduino/libraries</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
-      <Value>D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
+      <Value>../../../IRProtocol</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Users/brian/OneDrive/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -200,10 +205,15 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/brian/OneDrive/Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../Protomon;D:/School notes/Robot/Ard IDE/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/libraries;C:/Users/timme/OneDrive/Documenten/Arduino/libraries;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/cores/arduino;D:/School notes/Robot/Ard IDE/Arduino/hardware/arduino/avr/variants/standard;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/avr/include/avr/;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;D:/School notes/Robot/Ard IDE/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/brian/OneDrive/Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;../../../IRProtocol;</VMSETTING_IncludePaths>
+    <VisualMicroSettings>
+      <VisualMicroSettings xmlns="">
+        <arduino.upload.port>COM3</arduino.upload.port>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Protomon.ino">
+    <None Include="IRProtocol.ino">
       <SubType>compile</SubType>
     </None>
   </ItemGroup>
@@ -211,16 +221,19 @@
     <Folder Include="__vm\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProtomonReceive.cpp">
+    <Compile Include="IRReceive.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="ProtomonReceive.h">
+    <Compile Include="IRReceive.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="ProtomonTransmit.cpp">
+    <Compile Include="IRTransmit.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="ProtomonTransmit.h">
+    <Compile Include="IRTransmit.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="__vm\.IRProtocol.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="__vm\.Protomon.vsarduino.h">

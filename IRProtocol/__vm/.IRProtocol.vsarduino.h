@@ -22,4 +22,4 @@ int main();
 
 #include "pins_arduino.h" 
 #include "Arduino.h"
-#include "Protomon.ino"
+#include "IRProtocol.ino"
