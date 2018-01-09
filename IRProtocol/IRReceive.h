@@ -1,8 +1,3 @@
-/*
-	Name: Brian Kamperveen
-	Date: 24 november 2017
-	Description: header file for receive function of IR-protocol
-*/
 #ifndef _IRRECEIVE_h
 #define _IRRECEIVE_h
 
@@ -25,7 +20,6 @@ class IRReceive{
 	char dataFirst[15];
 	char bits[12];
 	char data[6];
-	//void ISR();
 };
 
 #endif

@@ -1,9 +1,3 @@
-/*
-	Naam: Tim Meermans
-	Date: 23-November-2017
-	Description: header file for the Transmit functions of the IR protocol
-*/
-
 #ifndef _IRTRANSMIT_h
 #define _IRTRANSMIT_h
 
@@ -24,7 +18,6 @@ class IRTransmit{
 		uint8_t spawn;
 
 	private:
-		//void ISR(TIMER1_COMPA_vect);
 		char data[12];
 		uint16_t freq;
 	};
