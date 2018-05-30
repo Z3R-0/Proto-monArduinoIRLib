@@ -1,4 +1,6 @@
 # Proto-monArduinoIRLib
+
+-----------------------------NOT CURRENTLY IN WORKING STATE----------------------------
 The infrared library for our school project of IR communication between 2 Arduino UNO's
 
 THIS IS AN INFRARED PROTOCOL MEANT FOR USE BETWEEN 2 OR MORE ARDUINO'S
